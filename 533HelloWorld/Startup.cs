@@ -28,7 +28,7 @@ namespace _533HelloWorld
 
             app.Run(async (context) =>
             {
-               await context.Response.WriteAsync("Hello to 533, this is new Prod code (should have come through GitHub)!");
+               await context.Response.WriteAsync("Hello to 533, this is new DEV code (should have come through GitHub)!");
                // await context.Response.HttpContext.;
             });
         }
